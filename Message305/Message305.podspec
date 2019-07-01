@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
     spec.author       = { "Roberto Guzman" => "rjguzman42@gmail.com" }
     spec.platform     = :ios, "12.0"
     spec.swift_version = '5.0'
-    spec.source       = { :git => "git@github.com:rjguzman42/Message305.git", :tag => "0.0.1" }
-    spec.source_files  = "Message305"
+    spec.source       = { :git => "https://github.com/rjguzman42/Message305.git", :tag => "0.0.1" }
+    spec.source_files  = "Message305/**/*.swift"
 
 end
