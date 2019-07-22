@@ -4,6 +4,11 @@ A simple way to alert the user through a default or customizable view, and a sim
 
 # Implementation
 
+Import the Message305 framework
+```
+import Message305
+```
+
 ## Custom View Example
 MessageDefaultView is the default view used by the MessageManager. But you can create a custom UIView that can be used to display a message to the user.
 
