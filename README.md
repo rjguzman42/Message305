@@ -4,6 +4,17 @@ A simple way to alert the user through a default or customizable view, and a sim
 
 # Implementation
 
+Add the project to your podfile
+```
+target 'TestApp' do
+# Comment the next line if you don't want to use dynamic frameworks
+use_frameworks!
+
+pod 'Message305', :git => 'https://github.com/rjguzman42/Message305.git'
+
+end
+```
+
 Import the Message305 framework
 ```
 import Message305
